@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica dental Jose Clérigues</title>
+
+    <!-- le ponemos nombre a la página-->
+    <link rel="stylesheet" href="../CSS/estilo.css" />
+    <!-- el estilo-->
+    <link rel="icon" type="image/png" href="../imagenes/Logo/logo.png" />
+    <!--Para tener el logo en la pagina-->
+
+
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <!--Añadimos el menú principal-->
+        <nav>
+            <div class="imgLogo">
+                <!--Añadimos el logo de la pagina principal-->
+                <a href="index.html">
+                    <img class="imgLogo" src="../imagenes/Logo/logoGrande.jpg" />
+                </a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <div class="menuOpcion">
+                            <a href="../HTML/index.html"> Clínica </a>
+                            <ul class="submenu">
+                                <li><a href="../HTML/galeria.html"> Galería </a></li>
+                                <li><a href="../HTML/equipo.html"> Equipo </a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="menuOpcion"><a href="../HTML/financiacion.html"> Financiación </a></div>
+                    </li>
+                    <li>
+                        <div class="menuOpcion"><a href="../HTML/consejos.html"> Consejos </a></div>
+                    </li>
+                    <li>
+                        <div class="menuOpcion"><a href="../HTML/contacto2.html">Contacto </a></div>
+                    </li>
+                    <li>
+                        <div class="menuOpcion"><a href="../HTML/encuentranos.html">Encuéntranos </a></div>
+                    </li>
+                    <li>
+                        <div class="menuOpcion"><a href="#"> En | Es </a></div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- CUERPO -->
+    <div class="contenido">
+        <div class="nuestro_equipo">
+            <h2>Contacta con nosotros</h2>
+
+            <p class="texto1">
+                Móvil 637610199 </p>
+            <p class="texto1">
+
+                Fijo 961843137
+
+            </p>
+            <p class="texto1">
+                Si tiene cualquier duda o consulta envíenos un mensaje y le atenderemos lo antes
+                posible.
+
+            </p>
+        </div>
+    </div>
+    <div>
+        <!-- foto formulario -->
+        <div class="imagenContacto">
+            <img src="../imagenes/Contacto/contacto3.jpg" />
+
+        </div>
+        <!-- Formulario -->
+        <form class="formulario2">
+            <div>
+                <input type="radio" name="Cliente" /> Cliente
+                <input type="radio" name="Cliente" /> Nuevo cliente
+                <br>
+
+                <br> <!--<label for="motivo">Motivo de la consulta:</label> -->
+                <select name="tratamientos">
+                    <option>Motivo de la consulta</option>
+                    <option>Cirugía</option>
+                    <option>Implantes</option>
+                    <option>Blanqueamiento</option>
+                    <option>Odontopediatría</option>
+                    <option>Ortodóncia</option>
+                    <option>Restauradora</option>
+                    <option>Tac dental</option>
+                    <option>Prótesis</option>
+                </select>
+
+                <br>
+                <br>
+                <label for="name"> </label>
+                <input type="text" size="50" name="name" id="name" placeholder="Nombre">
+                <br>
+                <label for="phone"></label>
+                <input type="tel" size="50" name="phone" id="phone" placeholder="Teléfono" />
+                <br>
+                <label for="email"> </label>
+                <input type="email" size="50" name="email" id="email" placeholder="Email" />
+
+                <br>
+                <br>
+                <label for="message"></label>
+                <textarea name="message" size="50" id="message" cols="50" rows="5" placeholder="Mensaje"></textarea>
+                <br>
+                <label for="message"></label>
+
+                <input class="enviar" type="submit" size="50" value="Enviar" />
+            </div>
+        </form>
+    </div>
+    <!--TABLA-->
+    <div class="horario">
+        <table class="tabla1">
+            <thead>
+                <tr>
+                    <th colspan="2">Horario</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="hora">De lunes a jueves</td>
+                    <td class="hora">09.00 - 14.00 <br> 16.00 - 20.00</td>
+                </tr>
+                <tr>
+                    <td class="hora">Viernes</td>
+                    <td class="hora">08.00 - 15.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="horario">
+        <table class="tabla2">
+            <thead>
+                <tr>
+                    <th colspan="2">Horario de verano</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="hora">De lunes a viernes</td>
+                    <td class="hora">08.00 - 15.00</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- FOOTER -->
+
+    <footer class="footer">
+        <div class="telefonos">
+            <div class="numero">
+                <p>
+                    <a title="fijo">
+                        <img src="../imagenes/iconos/telefonoNegro.png" alt="telefono_fijo" />
+                    </a>
+                    961843137
+                </p>
+            </div>
+            <div class="numero">
+                <p>
+                    <a title="movil"><img src="../imagenes/iconos/whatsapp.png" alt="telefono_movil" /></a>
+                    637610199
+                </p>
+            </div>
+        </div>
+        <div class="nombreFooter">
+            <p>Clínica dental José Clérigues</p>
+        </div>
+        <div class="redesSociales">
+            <div class="icono">
+                <p>
+                    <a title="Facebook" href="https://www.facebook.com/clinicadentalclerigues">
+                        <img src="../imagenes/iconos/facebookAzul.jpeg" alt="facebook" /></a>
+                </p>
+            </div>
+            <div class="icono">
+                <p>
+                    <a title="Instagram" href="https://www.instagram.com/clinicadentalclerigues/"><img
+                            src="../imagenes/iconos/instaAzul.jpeg" alt="instagram" /></a>
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
