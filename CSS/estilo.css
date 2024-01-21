@@ -166,15 +166,17 @@ h2 {
   cursor: pointer; /*cambia cuando el cursor pasa por encima*/
   border: none; /*Quita el color al borde*/
   background-color: #259b8f;
-  color: #fff !important;
+  color: #fff;
   border-radius: 5px;
   margin-bottom: 5%;
   margin-top: 2%;
 }
-a{
+.letraP {
   color:#fff;
 }
-
+.letraP:hover {
+  color: #035016; /*color que aparece cuando paso el cursor por encima*/
+}
 .pulsador:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /*Es la sombra del botón*/
   color: #035016; /*color que aparece cuando paso el cursor por encima*/
@@ -238,6 +240,7 @@ contacto
 .imagenContacto{
 display: inline-block;
 margin-left: 10%;
+
 padding: 100px 200px 50px 150px;
 
 }
@@ -245,11 +248,9 @@ padding: 100px 200px 50px 150px;
 .formulario2{
   width: 500px;
   box-sizing: border-box;
-  
-  display: inline-block;
+    display: inline-block;
   align-items: center;
   justify-content: center;
-  
   border-radius: 10px;
   text-align: left;
   color:#259b8f;
@@ -278,6 +279,7 @@ label{
   background-color: #4f91d2;
   color: white;
   margin-top: 15px;
+  margin-bottom: 50px;
   
 }
 textarea{
