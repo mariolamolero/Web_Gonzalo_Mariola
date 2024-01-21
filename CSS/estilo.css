@@ -166,11 +166,15 @@ h2 {
   cursor: pointer; /*cambia cuando el cursor pasa por encima*/
   border: none; /*Quita el color al borde*/
   background-color: #259b8f;
-  color: #fff;
+  color: #fff !important;
   border-radius: 5px;
   margin-bottom: 5%;
   margin-top: 2%;
 }
+a{
+  color:#fff;
+}
+
 .pulsador:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /*Es la sombra del botón*/
   color: #035016; /*color que aparece cuando paso el cursor por encima*/
@@ -247,8 +251,6 @@ padding: 100px 200px 50px 150px;
   justify-content: center;
   
   border-radius: 10px;
-  padding: 50px 55px;
-  margin-left: 200px;
   text-align: left;
   color:#259b8f;
   font-size: 20px;
@@ -429,17 +431,17 @@ h3{
 }
 video {
   
-	width: 700px;
-	height: 500px;
+	width: 350px;
+	height: 240px;
 	border-radius: 5px;
 	box-shadow: 3px 3px 3px #888888;
 }
 .videosConsejo{
-  margin: 0 100px 50px 200px;
+  margin: 0 50px 50px 100px;
 
 }
 .videosC{
-  width: 45%;
+  width: 24%;
   height: 50%;
   display:inline-block;
 }
@@ -447,7 +449,7 @@ video {
   padding-bottom: 10px;
   padding-right: 70px;
   color:#259b8f;
-  font-size:200%;
+  font-size:125%;
   text-align: center;
 }
 .texto3{
