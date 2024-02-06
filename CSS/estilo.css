@@ -6,6 +6,7 @@
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif; /* Tipo de letra*/
   text-decoration: none; /*elimina el subrayado de los enlaces*/
+  
 }
 
 body {
@@ -80,7 +81,7 @@ nav {
 }
 
 .submenu a {
-  display: block;
+ display: block;
   padding: 10px;
   background: #4f91d2;
   text-align: center;
